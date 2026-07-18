@@ -55,7 +55,7 @@ body {
 /* Application Layout Container */
 .app-container {
     width: 95vw;
-    max-width: 1200px;
+    max-width: 1600px;
     height: 90vh;
     min-height: 650px;
     background: var(--bg-glass);
