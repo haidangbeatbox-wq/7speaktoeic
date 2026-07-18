@@ -141,7 +141,7 @@ body {
 .main-workspace {
     flex: 1;
     display: grid;
-    grid-template-columns: 1.2fr 0.8fr;
+    grid-template-columns: 1fr 1.6fr;
     gap: 20px;
     padding: 24px;
     overflow-y: auto;
@@ -447,13 +447,14 @@ body {
 /* Right Panel: Explanation Card & Subtitles */
 .explanation-panel {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 20px;
     height: 100%;
 }
 
 /* Grammar Card styling */
 .grammar-card {
+    flex: 1;
     background: rgba(255, 255, 255, 0.02);
     border: 1px solid var(--border-glass);
     border-radius: 18px;
@@ -465,6 +466,7 @@ body {
     transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
     opacity: 1;
     transform: translateY(0);
+    overflow: hidden;
 }
 
 .grammar-card.hidden {
@@ -472,10 +474,10 @@ body {
     transform: translateY(20px);
     pointer-events: none;
     height: 0;
+    width: 0;
     padding: 0;
-    overflow: hidden;
-    border-color: transparent;
     margin: 0;
+    border-color: transparent;
 }
 
 .card-header-sparkle {
@@ -840,6 +842,15 @@ body {
 /* ===== RESPONSIVENESS ===== */
 
 /* Tablet */
+@media (max-width: 1100px) {
+    .explanation-panel {
+        flex-direction: column;
+    }
+    .grammar-card.hidden {
+        width: auto;
+    }
+}
+
 @media (max-width: 900px) {
     .main-workspace {
         grid-template-columns: 1fr;
