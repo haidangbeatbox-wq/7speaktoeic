@@ -1,0 +1,139 @@
+1
+00:00:00,000 --> 00:00:03,445
+chào các em, chào mừng các em đến với bài giảng ngày hôm nay.
+
+2
+00:00:03,545 --> 00:00:11,546
+hôm nay chúng ta sẽ cùng nhau giải phẫu một câu trắc nghiệm thoạt nhìn thì siêu dễ, nhưng lại là một cú lừa kinh điển trong các bài thi tiếng anh.
+
+3
+00:00:11,646 --> 00:00:13,334
+chúng ta cùng nhìn vào đề bài nhé.
+
+4
+00:00:13,434 --> 00:00:16,011
+một , nhận diện cú lừa kinh điển.
+
+5
+00:00:16,111 --> 00:00:18,351
+đề bài cho chúng ta một câu như sau.
+
+6
+00:00:18,451 --> 00:00:22,319
+it is imperative that the contract signed before friday.
+
+7
+00:00:22,419 --> 00:00:29,567
+khi dịch sương sương, chúng ta đều hiểu ý câu này là, bắt buộc là bản hợp đồng phải được ký trước thứ sáu.
+
+8
+00:00:29,667 --> 00:00:34,819
+bây giờ, hãy nhìn vào chủ ngữ ở vế sau, the contract bản hợp đồng.
+
+9
+00:00:34,919 --> 00:00:38,913
+đây là danh từ số ít đúng không nào, theo phản xạ thông thường.
+
+10
+00:00:39,013 --> 00:00:51,344
+chín mươi phần trăm các bạn học sinh mới học sẽ lập tức khoanh ngay đáp án a is hoặc lấn cấn sang đáp án d has been vì nghĩ rằng chủ ngữ số ít thì động từ to be phải chia số ít.
+
+11
+00:00:51,444 --> 00:00:55,215
+nhưng nếu khoanh a thì, bùm, các em đã rơi vào bẫy.
+
+12
+00:00:55,315 --> 00:00:58,127
+hai , đi tìm chân lý, thần chú bàng thái cách.
+
+13
+00:00:58,227 --> 00:01:07,950
+vậy tại sao lại không chia động từ theo chủ ngữ the contract, chìa khóa để mở khóa câu này nằm ở một từ vựng chà bá lửa ngay đầu câu, imperative bắt buộc, cấp bách.
+
+14
+00:01:08,050 --> 00:01:18,994
+trong tiếng anh, khi chúng ta dùng các tính từ mang tính chất bắt buộc, khuyên bảo, hay nhấn mạnh sự quan trọng như imperative, important, essential, necessary.
+
+15
+00:01:19,094 --> 00:01:24,606
+chúng ta phải sử dụng một cấu trúc siêu đặc biệt gọi là bàng thái cách subjunctive mood.
+
+16
+00:01:24,706 --> 00:01:27,460
+cấu trúc này có một câu thần chú như sau.
+
+17
+00:01:27,560 --> 00:01:33,086
+it is tính từ nhấn mạnh that chủ ngữ should v nguyên thể không to.
+
+18
+00:01:33,186 --> 00:01:46,129
+các em thấy chữ should trong ngoặc đơn không, đó chính là linh hồn của cấu trúc này, dù người anh hay người mỹ viết câu, họ thường ngầm hiểu có chữ should nên,phải ở đó, nhưng họ lại.
+
+19
+00:01:46,229 --> 00:01:54,623
+lười viết ra, họ giấu chữ should đi, nhưng động từ phía sau thì bắt buộc phải giữ ở dạng nguyên thể, bất chấp chủ ngữ là số ít hay số nhiều.
+
+20
+00:01:54,723 --> 00:01:57,485
+ba , phá án và chốt đáp án.
+
+21
+00:01:57,585 --> 00:02:00,202
+bây giờ, chúng ta ốp câu thần chú đó vào bài nhé.
+
+22
+00:02:00,302 --> 00:02:02,546
+chủ ngữ s, the contract.
+
+23
+00:02:02,646 --> 00:02:05,466
+động từ cần chia, sign ký kết.
+
+24
+00:02:05,566 --> 00:02:15,075
+nhưng khoan đã, bản hợp đồng có tự mọc tay ra để ký được không, chắc chắn là không rồi, nó phải được ký, vậy chúng ta phải dùng thể bị động passive voice.
+
+25
+00:02:15,175 --> 00:02:18,814
+thể bị động của v nguyên thể có should là, should be phân từ hai signed.
+
+26
+00:02:18,914 --> 00:02:26,423
+bây giờ, chúng ta dùng phép tàng hình, giấu đi chữ should, vậy chúng ta còn lại chữ gì, chính là chữ be.
+
+27
+00:02:26,523 --> 00:02:31,375
+và đó là lý do vì sao đáp án chính xác của chúng ta phải là b be.
+
+28
+00:02:31,475 --> 00:02:39,684
+câu hoàn chỉnh, it is imperative that the contract be signed before friday, bắt buộc là hợp đồng phải nên được ký trước thứ sáu.
+
+29
+00:02:39,784 --> 00:02:42,130
+bốn , tổng kết bỏ túi từ vựng.
+
+30
+00:02:42,230 --> 00:02:50,841
+qua câu này, các em nhớ đừng bao giờ để chủ ngữ đánh lừa khi phía trước có mặt của mấy anh tính từ quyền lực như imperative nhé.
+
+31
+00:02:50,941 --> 00:02:56,464
+trước khi kết thúc, chúng ta cùng bỏ túi ba từ vựng cực kỳ quan trọng xuất hiện trong câu này mà đi thi rất hay gặp.
+
+32
+00:02:56,564 --> 00:03:02,037
+imperative adj, bắt buộc, cấp bách đồng nghĩa với crucial, vital, essential.
+
+33
+00:03:02,137 --> 00:03:06,285
+contract n, hợp đồng nhớ nhấn trọng âm âm tiết đầu nhé.
+
+34
+00:03:06,385 --> 00:03:11,922
+sign v, ký kết chữ g bị câm, đọc là ,saɪn.
+
+35
+00:03:12,022 --> 00:03:22,025
+bài học hôm nay đến đây là kết thúc, nắm vững cấu trúc bàng thái cách này thì đi thi gặp câu nào các em cũng có thể diệt gọn câu đó, hẹn gặp lại các em ở bài giảng tiếp theo.
