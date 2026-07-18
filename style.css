@@ -578,6 +578,7 @@ body {
     display: flex;
     flex-direction: column;
     overflow: hidden;
+    min-height: 280px;
 }
 
 .subtitles-container .panel-header {
