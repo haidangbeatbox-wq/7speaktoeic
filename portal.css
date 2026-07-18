@@ -639,6 +639,10 @@ body {
         padding: 12px 16px;
     }
 
+    .header-center-title {
+        display: none;
+    }
+
     .header-logo h1 {
         font-size: 17px;
     }

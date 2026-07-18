@@ -991,10 +991,14 @@ body {
 
     /* Main workspace - single column */
     .main-workspace {
-        grid-template-columns: 1fr;
+        flex-direction: column;
         padding: 14px;
         gap: 16px;
         overflow-y: auto;
+    }
+
+    .header-center-title {
+        display: none;
     }
 
     /* Badge */
