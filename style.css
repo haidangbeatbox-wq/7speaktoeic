@@ -137,21 +137,37 @@ body {
     color: var(--text-secondary);
 }
 
+/* Screen reader only class to hide headers that broke layout */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
 /* Main Workspace layout */
 .main-workspace {
     flex: 1;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+    display: flex;
+    flex-direction: row;
     gap: 30px;
     padding: 24px;
     overflow-y: auto;
+    align-items: stretch;
 }
 
 /* Question Panel Styles (Left) */
 .question-panel {
+    flex: 1;
     display: flex;
     flex-direction: column;
     gap: 24px;
+    max-width: 100%;
 }
 
 .panel-header {
@@ -446,6 +462,7 @@ body {
 
 /* Right Panel: Explanation Card & Subtitles */
 .explanation-panel {
+    flex: 2;
     display: flex;
     flex-direction: row;
     gap: 30px;
@@ -846,9 +863,13 @@ body {
 /* Laptop / Small Desktop */
 @media (max-width: 1400px) {
     .main-workspace {
-        grid-template-columns: 1.2fr 0.8fr;
+        flex-direction: row;
+    }
+    .question-panel {
+        flex: 1.2;
     }
     .explanation-panel {
+        flex: 0.8;
         flex-direction: column;
     }
     .grammar-card {
@@ -856,13 +877,14 @@ body {
     }
     .grammar-card.hidden {
         width: auto;
+        height: 0;
     }
 }
 
 /* Tablet */
 @media (max-width: 900px) {
     .main-workspace {
-        grid-template-columns: 1fr;
+        flex-direction: column;
         overflow-y: auto;
     }
     
