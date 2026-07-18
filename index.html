@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toeic Adam - TOEIC Portal Dashboard</title>
+    <meta name="description" content="Trang tổng quan luyện thi TOEIC Part 5, 6, 7 với các bài giảng tương tác đồng bộ âm thanh sinh động.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="portal.css">
+</head>
+<body>
+    <div class="bg-gradient-glow"></div>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="header-logo">
+                <span class="logo-icon">⚡</span>
+                <h1>Toeic Adam</h1>
+            </div>
+            <div class="header-status">
+                <span class="user-badge">Học viên TOEIC</span>
+            </div>
+        </header>
+
+        <!-- Main Workspace -->
+        <main class="main-workspace">
+            <!-- Hero / Statistics Cards -->
+            <section class="stats-section">
+                <!-- Stat Card 1 -->
+                <div class="stat-card">
+                    <div class="stat-icon-bg purple">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" class="stat-icon"><path d="M12 20h9M3 20v-8a2 2 0 012-2h4a2 2 0 012 2v8M11 20v-4a2 2 0 012-2h4a2 2 0 012 2v8"></path></svg>
+                    </div>
+                    <div class="stat-info">
+                        <span class="stat-label">Tiến độ bài học</span>
+                        <h2 class="stat-value">2 <span class="stat-total">/ 500 câu</span></h2>
+                        <div class="stat-progress-bar">
+                            <div class="progress-indicator" style="width: 0.4%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Stat Card 2 -->
+                <div class="stat-card">
+                    <div class="stat-icon-bg emerald">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" class="stat-icon"><path d="M22 11.08V12a10 10 0 11-5.93-9.14M22 4L12 14.01l-3-3"></path></svg>
+                    </div>
+                    <div class="stat-info">
+                        <span class="stat-label">Tỉ lệ chính xác</span>
+                        <h2 class="stat-value">100%</h2>
+                        <span class="stat-desc">Hoàn thành đúng mục tiêu</span>
+                    </div>
+                </div>
+
+                <!-- Stat Card 3 -->
+                <div class="stat-card">
+                    <div class="stat-icon-bg cyan">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" class="stat-icon"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                    </div>
+                    <div class="stat-info">
+                        <span class="stat-label">Thời gian luyện tập</span>
+                        <h2 class="stat-value">04:41</h2>
+                        <span class="stat-desc">Đồng bộ theo audio bài giảng</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Dashboard Content Layout Grid -->
+            <div class="dashboard-content">
+                <!-- Left Panel: Lesson Map / Question list -->
+                <section class="lesson-section" aria-labelledby="lesson-title">
+                    <div class="section-header">
+                        <h3 id="lesson-title">Lộ trình Luyện đề TOEIC</h3>
+                        <div class="tab-selectors">
+                            <button class="tab-btn active">Part 5</button>
+                            <button class="tab-btn disabled" disabled>Part 6 🔒</button>
+                            <button class="tab-btn disabled" disabled>Part 7 🔒</button>
+                        </div>
+                    </div>
+
+                    <div class="lesson-list">
+                        <!-- Active Lesson (Câu 124) -->
+                        <div class="lesson-item completed">
+                            <div class="lesson-index-badge completed">124</div>
+                            <div class="lesson-details">
+                                <div class="lesson-meta">
+                                    <span class="lesson-type-tag">Từ loại (Word Form)</span>
+                                    <span class="status-badge success">Hoàn thành</span>
+                                </div>
+                                <h4 class="lesson-question-preview">
+                                    All of the students who have completed their coursework _______ will be eligible...
+                                </h4>
+                            </div>
+                            <a href="player-124.html" class="play-lesson-btn" title="Học lại câu này">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon-play"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                                <span>Nghe giảng</span>
+                            </a>
+                        </div>
+
+                        <!-- Active Lesson (Câu 125) -->
+                        <div class="lesson-item completed">
+                            <div class="lesson-index-badge completed">125</div>
+                            <div class="lesson-details">
+                                <div class="lesson-meta">
+                                    <span class="lesson-type-tag">Lượng từ (Determiner)</span>
+                                    <span class="status-badge success">Hoàn thành</span>
+                                </div>
+                                <h4 class="lesson-question-preview">
+                                    Ace Department Store collaborated with _______ fashion designers to create its women's...
+                                </h4>
+                            </div>
+                            <a href="player-125.html" class="play-lesson-btn" title="Nghe giảng câu này">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon-play"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                                <span>Nghe giảng</span>
+                            </a>
+                        </div>
+
+                        <!-- Locked Lesson (Câu 126) -->
+                        <div class="lesson-item locked">
+                            <div class="lesson-index-badge">126</div>
+                            <div class="lesson-details">
+                                <div class="lesson-meta">
+                                    <span class="lesson-type-tag">Thì động từ (Verb Tenses)</span>
+                                    <span class="status-badge text-muted">Chờ mở khóa</span>
+                                </div>
+                                <h4 class="lesson-question-preview">
+                                    By the time the new CEO arrives next week, the technical staff _______ all system updates...
+                                </h4>
+                            </div>
+                            <button class="play-lesson-btn" disabled>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" class="icon-lock"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0110 0v4"></path></svg>
+                            </button>
+                        </div>
+
+                        <!-- Locked Lesson (Câu 127) -->
+                        <div class="lesson-item locked">
+                            <div class="lesson-index-badge">127</div>
+                            <div class="lesson-details">
+                                <div class="lesson-meta">
+                                    <span class="lesson-type-tag">Mệnh đề quan hệ (Relative Clauses)</span>
+                                    <span class="status-badge text-muted">Chờ mở khóa</span>
+                                </div>
+                                <h4 class="lesson-question-preview">
+                                    The supervisor praised the interns _______ innovative solutions increased office productivity...
+                                </h4>
+                            </div>
+                            <button class="play-lesson-btn" disabled>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" class="icon-lock"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0110 0v4"></path></svg>
+                            </button>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Right Panel: Vocabulary Notebook Card -->
+                <section class="notebook-section" aria-labelledby="notebook-title">
+                    <div class="notebook-card">
+                        <div class="card-header-sparkle">
+                            <span class="sparkle-icon">📚</span>
+                            <h3 id="notebook-title">Sổ tay Từ Vựng (Vocabulary)</h3>
+                        </div>
+                        <p class="notebook-desc">Ghi nhận họ từ vựng đã học được sau các bài giảng tương tác:</p>
+                        
+                        <div class="word-group">
+                            <div class="word-group-header">
+                                <span class="root-word">satisfy</span>
+                                <span class="root-desc">(Động từ - Làm thỏa mãn)</span>
+                            </div>
+                            
+                            <div class="word-derivations">
+                                <!-- Derivation 1 -->
+                                <div class="derivation-item highlighted">
+                                    <div class="deriv-main">
+                                        <span class="deriv-text">satisfactorily</span>
+                                        <span class="deriv-badge">Adv</span>
+                                    </div>
+                                    <p class="deriv-meaning">Một cách đạt yêu cầu, tốt đẹp</p>
+                                    <span class="deriv-source">Nguồn: Câu 124</span>
+                                </div>
+
+                                <!-- Derivation 2 -->
+                                <div class="derivation-item">
+                                    <div class="deriv-main">
+                                        <span class="deriv-text">satisfactory</span>
+                                        <span class="deriv-badge">Adj</span>
+                                    </div>
+                                    <p class="deriv-meaning">Đạt yêu cầu, chấp nhận được</p>
+                                </div>
+
+                                <!-- Derivation 3 -->
+                                <div class="derivation-item">
+                                    <div class="deriv-main">
+                                        <span class="deriv-text">satisfaction</span>
+                                        <span class="deriv-badge">Noun</span>
+                                    </div>
+                                    <p class="deriv-meaning">Sự hài lòng, sự thỏa mãn</p>
+                                </div>
+
+                                <!-- Derivation 4 -->
+                                <div class="derivation-item">
+                                    <div class="deriv-main">
+                                        <span class="deriv-text">satisfying</span>
+                                        <span class="deriv-badge">Adj / V-ing</span>
+                                    </div>
+                                    <p class="deriv-meaning">Làm thỏa mãn, đem lại sự hài lòng</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
