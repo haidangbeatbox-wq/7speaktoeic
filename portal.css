@@ -567,20 +567,25 @@ body {
     margin-top: 2px;
 }
 
-/* Responsiveness */
+/* ===== RESPONSIVENESS ===== */
+
+/* Tablet */
 @media (max-width: 900px) {
-    .stats-section {
-        grid-template-columns: 1fr;
-    }
-    
     .dashboard-content {
         grid-template-columns: 1fr;
     }
     
     .app-container {
         height: auto;
-        min-height: 95vh;
-        border-radius: 16px;
+        min-height: 100vh;
+        min-height: 100dvh;
+        border-radius: 0;
+        width: 100vw;
+        max-width: 100%;
+    }
+
+    body {
+        align-items: flex-start;
     }
     
     .main-workspace {
@@ -591,5 +596,229 @@ body {
         flex-direction: column;
         align-items: flex-start;
         gap: 10px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    body {
+        align-items: flex-start;
+    }
+
+    .bg-gradient-glow {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .app-container {
+        width: 100vw;
+        max-width: 100%;
+        height: auto;
+        min-height: 100vh;
+        min-height: 100dvh;
+        border-radius: 0;
+        border: none;
+    }
+
+    /* Header compact */
+    .app-header {
+        padding: 12px 16px;
+    }
+
+    .header-logo h1 {
+        font-size: 17px;
+    }
+
+    .logo-icon {
+        font-size: 20px;
+    }
+
+    .user-badge {
+        padding: 4px 10px;
+        font-size: 11px;
+    }
+
+    /* Main workspace */
+    .main-workspace {
+        padding: 16px;
+        gap: 20px;
+        overflow-y: visible;
+    }
+
+    /* Stats: horizontal scroll strip */
+    .stats-section {
+        display: flex;
+        gap: 10px;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+        padding-bottom: 4px;
+    }
+
+    .stats-section::-webkit-scrollbar {
+        display: none;
+    }
+
+    .stat-card {
+        min-width: 200px;
+        flex-shrink: 0;
+        scroll-snap-align: start;
+        padding: 14px 16px;
+        border-radius: 14px;
+        gap: 12px;
+    }
+
+    .stat-icon-bg {
+        width: 40px;
+        height: 40px;
+        border-radius: 10px;
+    }
+
+    .stat-icon {
+        width: 18px;
+        height: 18px;
+    }
+
+    .stat-label {
+        font-size: 11px;
+    }
+
+    .stat-value {
+        font-size: 18px;
+    }
+
+    .stat-total {
+        font-size: 11px;
+    }
+
+    .stat-desc {
+        font-size: 11px;
+    }
+
+    /* Dashboard content */
+    .dashboard-content {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    /* Section header */
+    .section-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .section-header h3 {
+        font-size: 16px;
+    }
+
+    .tab-btn {
+        font-size: 11px;
+        padding: 5px 10px;
+    }
+
+    /* Lesson items - stack vertically */
+    .lesson-list {
+        gap: 10px;
+    }
+
+    .lesson-item {
+        padding: 14px;
+        gap: 12px;
+        flex-wrap: wrap;
+        border-radius: 14px;
+    }
+
+    .lesson-index-badge {
+        width: 38px;
+        height: 38px;
+        border-radius: 10px;
+        font-size: 14px;
+    }
+
+    .lesson-details {
+        flex: 1;
+        min-width: 0;
+    }
+
+    .lesson-meta {
+        flex-wrap: wrap;
+        gap: 6px;
+    }
+
+    .lesson-type-tag {
+        font-size: 10px;
+    }
+
+    .status-badge {
+        font-size: 10px;
+        padding: 2px 6px;
+    }
+
+    .lesson-question-preview {
+        font-size: 13px;
+        max-width: 100%;
+        white-space: normal;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    /* Play button: full width below content */
+    .play-lesson-btn {
+        width: 100%;
+        justify-content: center;
+        padding: 10px 16px;
+        font-size: 13px;
+        border-radius: 10px;
+    }
+
+    /* Locked lesson play button stays compact */
+    .lesson-item.locked .play-lesson-btn {
+        width: 32px;
+        height: 32px;
+        padding: 0;
+        min-width: 32px;
+    }
+
+    /* Notebook section */
+    .notebook-card {
+        padding: 16px;
+        border-radius: 14px;
+        gap: 12px;
+    }
+
+    .card-header-sparkle h3 {
+        font-size: 13px;
+    }
+
+    .notebook-desc {
+        font-size: 12px;
+    }
+
+    .word-group {
+        padding: 12px;
+    }
+
+    .root-word {
+        font-size: 16px;
+    }
+
+    .derivation-item {
+        padding: 8px 10px;
+    }
+
+    .deriv-text {
+        font-size: 13px;
+    }
+
+    .deriv-meaning {
+        font-size: 11px;
+    }
+
+    .deriv-badge {
+        font-size: 9px;
     }
 }
