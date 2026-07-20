@@ -86,13 +86,13 @@ body {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 18px;
-    font-weight: 700;
+    font-size: 24px;
+    font-weight: 800;
     letter-spacing: 2px;
     color: var(--color-primary);
     text-transform: uppercase;
     white-space: nowrap;
-    opacity: 0.8;
+    opacity: 1;
 }
 
 .header-logo {
@@ -216,7 +216,7 @@ body {
 .question-text {
     font-size: 36px;
     line-height: 1.7;
-    font-weight: 400;
+    font-weight: bold;
     color: var(--text-primary);
 }
 
@@ -226,7 +226,7 @@ body {
     padding: 2px 6px;
     border-radius: 6px;
     transition: all 0.3s ease;
-    font-weight: 500;
+    font-weight: inherit;
 }
 
 .word-highlight.active {
@@ -266,7 +266,7 @@ body {
     padding: 0 8px;
     color: var(--color-secondary);
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    font-weight: 600;
+    font-weight: inherit;
     font-style: italic;
     display: inline-block;
 }
@@ -341,8 +341,8 @@ body {
 }
 
 .option-text {
-    font-weight: 500;
-    font-size: 25px;
+    font-weight: bold;
+    font-size: 28px;
 }
 
 .option-type {
@@ -535,7 +535,7 @@ body {
 
 .card-header-sparkle h3 {
     font-size: 25px;
-    font-weight: 700;
+    font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 1px;
     color: var(--color-secondary);
@@ -567,7 +567,8 @@ body {
 
 .grammar-explanation {
     font-size: 32px;
-    color: var(--text-secondary);
+    font-weight: 700;
+    color: var(--text-primary);
     line-height: 1.5;
 }
 
@@ -646,7 +647,7 @@ body {
 
 .subtitle-line.active {
     font-size: 32px;
-    font-weight: 500;
+    font-weight: 700;
     color: var(--text-primary);
     line-height: 1.5;
     text-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);

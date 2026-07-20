@@ -1,0 +1,48 @@
+window.subtitlesText = `1
+00:00:00,000 --> 00:00:08,038
+chào mọi người, tui là bảy speak đây, lại tiếp tục với một phút diệt gọn ngữ pháp nhé, các bạn chuẩn bị bấm giờ, bắt đầu.
+
+2
+00:00:08,138 --> 00:00:15,583
+câu số chín hôm nay có nội dung, the financial director presented a very khoảng trống argument for reducing expenses.
+
+3
+00:00:15,683 --> 00:00:24,721
+nhìn lướt qua các đáp án, chúng ta có thể nhận ra ngay đây là một câu kiểm tra về từ loại, cụ thể là chọn đúng biến thể của từ convince.
+
+4
+00:00:24,821 --> 00:00:30,689
+với dạng bài này, chúng ta không cần dịch mà hãy phân tích ngay vị trí của chỗ trống nhé.
+
+5
+00:00:30,789 --> 00:00:38,425
+các bạn nhìn ngay phía sau khoảng trống là danh từ argument, nghĩa là lập luận, phía trước có trạng từ chỉ mức độ very.
+
+6
+00:00:38,525 --> 00:00:46,032
+vậy vị trí chúng ta đang cần điền chắc chắn phải là một tính từ để đứng trước và bổ nghĩa cho danh từ argument.
+
+7
+00:00:46,132 --> 00:00:56,473
+trong các lựa chọn sẽ có hai tính từ làm các bạn phân vân là dạng đuôi ed và đuôi ing, các bạn nhớ kỹ mẹo này nha, argument là danh từ chỉ sự vật.
+
+8
+00:00:56,573 --> 00:01:07,105
+để miêu tả bản chất, đặc điểm của một sự vật, sự việc, chúng ta dùng tính từ đuôi ing, còn tính từ đuôi ed thường dùng để diễn tả cảm giác, trạng thái của con người.
+
+9
+00:01:07,205 --> 00:01:12,766
+một cái lập luận thì nó phải mang tính thuyết phục, chứ nó không thể bị thuyết phục được đúng không nào.
+
+10
+00:01:12,866 --> 00:01:26,425
+áp dụng đúng quy tắc đó, chúng ta chốt ngay đáp án c, convincing có đuôi ing, cả câu hoàn chỉnh dịch ra là, giám đốc tài chính đã trình bày một lập luận rất thuyết phục cho việc cắt giảm chi phí.
+
+11
+00:01:26,525 --> 00:01:40,046
+trước khi hết giờ, cùng chốt lại ba từ vựng ăn điểm nhé, một, financial director là giám đốc tài chính, hai, argument là lập luận, ba, reduce expense là cắt giảm chi phí.
+
+12
+00:01:40,146 --> 00:01:50,276
+đúng một phút xong ngay một câu, tui là bảy speak, các bạn nhớ ghi chép lại cách phân biệt tính từ đuôi ed và đuôi ing này nhé, hẹn gặp lại mọi người ở video tiếp theo.
+`;
