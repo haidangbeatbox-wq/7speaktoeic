@@ -1,25 +1,25 @@
 /* CSS variables for consistent premium design */
 :root {
-    --bg-dark: #090d16;
-    --bg-glass: rgba(17, 24, 39, 0.65);
-    --bg-glass-hover: rgba(31, 41, 55, 0.8);
-    --border-glass: rgba(255, 255, 255, 0.08);
+    --bg-dark: #f3f4f6;
+    --bg-glass: rgba(255, 255, 255, 0.85);
+    --bg-glass-hover: rgba(255, 255, 255, 1);
+    --border-glass: rgba(0, 0, 0, 0.08);
     --border-glass-active: rgba(139, 92, 246, 0.4);
     
-    --color-primary: #a855f7;       /* Neon Purple */
-    --color-primary-glow: rgba(168, 85, 247, 0.3);
-    --color-secondary: #06b6d4;     /* Neon Cyan */
-    --color-success: #10b981;       /* Neon Green */
-    --color-success-glow: rgba(16, 185, 129, 0.3);
-    --color-danger: #f43f5e;        /* Neon Red */
-    --color-danger-glow: rgba(244, 63, 94, 0.2);
+    --color-primary: #8b5cf6;       /* Neon Purple */
+    --color-primary-glow: rgba(139, 92, 246, 0.3);
+    --color-secondary: #0284c7;     /* Neon Cyan */
+    --color-success: #059669;       /* Neon Green */
+    --color-success-glow: rgba(5, 150, 105, 0.3);
+    --color-danger: #e11d48;        /* Neon Red */
+    --color-danger-glow: rgba(225, 29, 72, 0.2);
     
-    --text-primary: #f3f4f6;
-    --text-secondary: #9ca3af;
-    --text-muted: #6b7280;
+    --text-primary: #111827;
+    --text-secondary: #4b5563;
+    --text-muted: #9ca3af;
     
-    --font-heading: 'Space Grotesk', sans-serif;
-    --font-body: 'Outfit', sans-serif;
+    --font-heading: 'Times New Roman', Times, serif;
+    --font-body: 'Times New Roman', Times, serif;
 }
 
 /* Reset and base styles */
@@ -56,9 +56,9 @@ body {
 
 /* Application Layout Container */
 .app-container {
-    width: 95vw;
-    max-width: 1600px;
-    height: 90vh;
+    width: 98vw;
+    max-width: none;
+    height: 96vh;
     min-height: 650px;
     background: var(--bg-glass);
     backdrop-filter: blur(20px);
@@ -86,7 +86,7 @@ body {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 700;
     letter-spacing: 2px;
     color: var(--color-primary);
@@ -102,7 +102,7 @@ body {
 }
 
 .logo-icon {
-    font-size: 24px;
+    font-size: 31px;
     background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -110,10 +110,10 @@ body {
 
 .header-logo h1 {
     font-family: var(--font-heading);
-    font-size: 20px;
+    font-size: 26px;
     font-weight: 700;
     letter-spacing: -0.5px;
-    background: linear-gradient(to right, #ffffff, #d1d5db);
+    background: linear-gradient(to right, var(--text-primary), var(--text-secondary));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -122,10 +122,10 @@ body {
     display: flex;
     align-items: center;
     gap: 8px;
-    background: rgba(255, 255, 255, 0.05);
+    background: var(--bg-glass);
     padding: 6px 12px;
     border-radius: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--border-glass);
 }
 
 .status-dot {
@@ -146,7 +146,7 @@ body {
 }
 
 .status-text {
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 500;
     color: var(--text-secondary);
 }
@@ -173,15 +173,17 @@ body {
     padding: 24px;
     overflow-y: auto;
     align-items: stretch;
+    min-height: 0;
 }
 
 /* Question Panel Styles (Left) */
 .question-panel {
-    flex: 1;
+    flex: 1 1 0%;
     display: flex;
     flex-direction: column;
     gap: 24px;
     max-width: 100%;
+    min-height: 0;
 }
 
 .panel-header {
@@ -193,29 +195,29 @@ body {
 .badge {
     background: linear-gradient(135deg, rgba(168, 85, 247, 0.15), rgba(6, 182, 212, 0.15));
     border: 1px solid rgba(168, 85, 247, 0.3);
-    color: #e9d5ff;
+    color: var(--color-primary);
     padding: 6px 14px;
     border-radius: 12px;
-    font-size: 13px;
-    font-weight: 600;
+    font-size: 17px;
+    font-weight: 700;
     font-family: var(--font-heading);
 }
 
 .question-card {
-    background: rgba(255, 255, 255, 0.02);
+    background: rgba(0, 0, 0, 0.02);
     border: 1px solid var(--border-glass);
     padding: 30px;
     border-radius: 18px;
     position: relative;
     overflow: hidden;
-    box-shadow: inset 0 2px 4px rgba(255, 255, 255, 0.02);
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.02);
 }
 
 .question-text {
-    font-size: 20px;
+    font-size: 31px;
     line-height: 1.7;
     font-weight: 400;
-    color: #e5e7eb;
+    color: var(--text-primary);
 }
 
 /* Dynamic highlighting inside sentence */
@@ -230,7 +232,8 @@ body {
 .word-highlight.active {
     background: rgba(168, 85, 247, 0.2);
     border-bottom: 2px dashed var(--color-primary);
-    color: #ffffff;
+    color: var(--color-primary);
+    font-weight: 700;
     cursor: help;
 }
 
@@ -244,7 +247,7 @@ body {
     color: #fff;
     padding: 4px 8px;
     border-radius: 6px;
-    font-size: 11px;
+    font-size: 14px;
     white-space: nowrap;
     opacity: 0;
     pointer-events: none;
@@ -290,7 +293,7 @@ body {
 }
 
 .option-card {
-    background: rgba(255, 255, 255, 0.03);
+    background: rgba(0, 0, 0, 0.02);
     border: 1px solid var(--border-glass);
     border-radius: 14px;
     padding: 16px 20px;
@@ -300,7 +303,7 @@ body {
     cursor: pointer;
     color: var(--text-primary);
     font-family: var(--font-body);
-    font-size: 16px;
+    font-size: 23px;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     position: relative;
     overflow: hidden;
@@ -317,8 +320,8 @@ body {
 .option-marker {
     width: 32px;
     height: 32px;
-    background: rgba(255, 255, 255, 0.08);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(0, 0, 0, 0.03);
+    border: 1px solid var(--border-glass);
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -339,11 +342,11 @@ body {
 
 .option-text {
     font-weight: 500;
-    font-size: 17px;
+    font-size: 25px;
 }
 
 .option-type {
-    font-size: 13px;
+    font-size: 20px;
     color: var(--text-secondary);
     background: rgba(255, 255, 255, 0.04);
     padding: 2px 8px;
@@ -395,7 +398,7 @@ body {
     content: '✕';
     color: var(--color-danger);
     font-weight: 700;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 /* Cross line drawing pen effect */
@@ -439,7 +442,7 @@ body {
     content: '✓';
     color: var(--color-success);
     font-weight: 700;
-    font-size: 18px;
+    font-size: 23px;
 }
 
 /* Jump to button inside Option Card */
@@ -476,7 +479,7 @@ body {
 
 /* Right Panel: Explanation Card & Subtitles */
 .explanation-panel {
-    flex: 2;
+    flex: 2 1 0%;
     display: flex;
     flex-direction: row;
     gap: 30px;
@@ -485,12 +488,12 @@ body {
 
 /* Grammar Card styling */
 .grammar-card {
-    flex: 1;
-    background: rgba(255, 255, 255, 0.02);
-    border: 1px solid var(--border-glass);
+    flex: 1.4 1 0%;
+    background: var(--bg-glass);
+    border: 2px solid var(--text-primary);
     border-radius: 18px;
     padding: 20px;
-    box-shadow: inset 0 2px 4px rgba(255, 255, 255, 0.01);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -520,7 +523,7 @@ body {
 }
 
 .sparkle-icon {
-    font-size: 16px;
+    font-size: 21px;
     animation: float 3s ease-in-out infinite;
 }
 
@@ -531,7 +534,7 @@ body {
 }
 
 .card-header-sparkle h3 {
-    font-size: 14px;
+    font-size: 25px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -543,12 +546,12 @@ body {
     display: flex;
     align-items: center;
     gap: 10px;
-    background: rgba(255, 255, 255, 0.03);
+    background: rgba(0, 0, 0, 0.03);
     padding: 12px 16px;
     border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.05);
     font-family: var(--font-heading);
-    font-size: 18px;
+    font-size: 32px;
     font-weight: 700;
     justify-content: center;
 }
@@ -563,7 +566,7 @@ body {
 }
 
 .grammar-explanation {
-    font-size: 14px;
+    font-size: 26px;
     color: var(--text-secondary);
     line-height: 1.5;
 }
@@ -581,13 +584,13 @@ body {
     grid-template-columns: 0.9fr 1.1fr 1fr;
     padding: 8px 12px;
     border-radius: 8px;
-    font-size: 13px;
-    background: rgba(255, 255, 255, 0.01);
+    font-size: 21px;
+    background: rgba(0, 0, 0, 0.01);
     border: 1px solid transparent;
 }
 
 .table-row.header {
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(0, 0, 0, 0.05);
     font-weight: 600;
     color: var(--text-primary);
 }
@@ -605,9 +608,9 @@ body {
 
 /* Subtitle Glass Container */
 .subtitles-container {
-    flex: 1;
-    background: rgba(255, 255, 255, 0.015);
-    border: 1px solid var(--border-glass);
+    flex: 0.8 1 0%;
+    background: var(--bg-glass);
+    border: 2px dashed var(--text-secondary);
     border-radius: 18px;
     padding: 20px;
     display: flex;
@@ -620,7 +623,7 @@ body {
     padding-bottom: 12px;
     border-bottom: 1px solid var(--border-glass);
     margin-bottom: 12px;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.5px;
@@ -642,17 +645,17 @@ body {
 }
 
 .subtitle-line.active {
-    font-size: 19px;
+    font-size: 36px;
     font-weight: 500;
-    color: #ffffff;
+    color: var(--text-primary);
     line-height: 1.5;
-    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     max-width: 90%;
 }
 
 .subtitle-line.previous,
 .subtitle-line.next {
-    font-size: 14px;
+    font-size: 24px;
     color: var(--text-muted);
     opacity: 0.4;
     max-width: 80%;
@@ -689,7 +692,7 @@ body {
 }
 
 .marker-label {
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 500;
     color: var(--text-secondary);
     transition: all 0.2s ease;
@@ -720,7 +723,7 @@ body {
 .player-controls {
     padding: 16px 24px;
     border-top: 1px solid var(--border-glass);
-    background: rgba(10, 15, 26, 0.8);
+    background: var(--bg-glass);
     display: grid;
     grid-template-columns: 0.6fr 1.8fr 0.6fr;
     align-items: center;
@@ -738,7 +741,7 @@ body {
     background: none;
     border: none;
     cursor: pointer;
-    color: #ffffff;
+    color: var(--text-primary);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -773,7 +776,7 @@ body {
 }
 
 .time-display {
-    font-size: 13px;
+    font-size: 17px;
     font-weight: 500;
     color: var(--text-secondary);
     display: flex;
@@ -853,7 +856,7 @@ body {
     border: none;
     cursor: pointer;
     font-family: var(--font-body);
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 600;
     color: var(--text-secondary);
     padding: 6px 12px;
@@ -895,11 +898,16 @@ body {
     }
 }
 
-/* Tablet */
-@media (max-width: 900px) {
+/* Tablet / iPad */
+@media (max-width: 1024px) {
     .main-workspace {
         flex-direction: column;
         overflow-y: auto;
+    }
+    
+    .question-panel, .explanation-panel {
+        flex: none;
+        width: 100%;
     }
     
     .app-container {
@@ -927,7 +935,7 @@ body {
     }
 
     .marker-label {
-        font-size: 10px;
+        font-size: 13px;
     }
 }
 
@@ -959,11 +967,11 @@ body {
     }
 
     .header-logo h1 {
-        font-size: 16px;
+        font-size: 21px;
     }
 
     .logo-icon {
-        font-size: 18px;
+        font-size: 23px;
     }
 
     .header-actions {
@@ -971,7 +979,7 @@ body {
     }
 
     .btn-secondary {
-        font-size: 11px !important;
+        font-size: 14px !important;
         padding: 6px 10px !important;
         border-radius: 8px !important;
     }
@@ -981,7 +989,7 @@ body {
     }
 
     .status-text {
-        font-size: 10px;
+        font-size: 13px;
     }
 
     .status-dot {
@@ -1003,7 +1011,7 @@ body {
 
     /* Badge */
     .badge {
-        font-size: 12px;
+        font-size: 16px;
         padding: 4px 10px;
     }
 
@@ -1014,7 +1022,7 @@ body {
     }
 
     .question-text {
-        font-size: 16px;
+        font-size: 21px;
         line-height: 1.65;
     }
 
@@ -1026,23 +1034,23 @@ body {
     .option-card {
         padding: 12px 14px;
         border-radius: 12px;
-        font-size: 14px;
+        font-size: 18px;
     }
 
     .option-marker {
         width: 28px;
         height: 28px;
         border-radius: 8px;
-        font-size: 13px;
+        font-size: 17px;
         margin-right: 10px;
     }
 
     .option-text {
-        font-size: 15px;
+        font-size: 20px;
     }
 
     .option-type {
-        font-size: 11px;
+        font-size: 14px;
         padding: 2px 6px;
     }
 
@@ -1070,12 +1078,12 @@ body {
     }
 
     .card-header-sparkle h3 {
-        font-size: 12px;
+        font-size: 19px;
         letter-spacing: 0.5px;
     }
 
     .grammar-formula {
-        font-size: 14px;
+        font-size: 21px;
         padding: 10px 12px;
         border-radius: 10px;
         gap: 6px;
@@ -1084,14 +1092,14 @@ body {
     }
 
     .grammar-explanation {
-        font-size: 13px;
+        font-size: 19px;
     }
 
     /* Word family table */
     .table-row {
         grid-template-columns: 1fr 1fr 1.2fr;
         padding: 6px 8px;
-        font-size: 11px;
+        font-size: 16px;
         gap: 4px;
     }
 
@@ -1102,13 +1110,13 @@ body {
     }
 
     .subtitle-line.active {
-        font-size: 15px;
+        font-size: 24px;
         max-width: 100%;
     }
 
     .subtitle-line.previous,
     .subtitle-line.next {
-        font-size: 12px;
+        font-size: 18px;
     }
 
     .subtitles-wrapper {
@@ -1140,7 +1148,7 @@ body {
     }
 
     .marker-label {
-        font-size: 9px;
+        font-size: 12px;
         white-space: nowrap;
     }
 
@@ -1162,7 +1170,7 @@ body {
     }
 
     .time-display {
-        font-size: 11px;
+        font-size: 14px;
     }
 
     .controls-left {
@@ -1170,7 +1178,7 @@ body {
     }
 
     .speed-btn {
-        font-size: 10px;
+        font-size: 13px;
         padding: 4px 8px;
     }
 
@@ -1186,11 +1194,11 @@ body {
 /* Extra small phones */
 @media (max-width: 380px) {
     .question-text {
-        font-size: 14px;
+        font-size: 18px;
     }
 
     .option-text {
-        font-size: 14px;
+        font-size: 18px;
     }
 
     .option-type {
@@ -1202,11 +1210,11 @@ body {
     }
 
     .grammar-formula {
-        font-size: 13px;
+        font-size: 17px;
     }
 
     .table-row {
-        font-size: 10px;
+        font-size: 13px;
     }
 }
 

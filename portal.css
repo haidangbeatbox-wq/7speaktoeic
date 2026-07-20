@@ -1,23 +1,23 @@
 /* CSS variables matching the player styling for theme consistency */
 :root {
-    --bg-dark: #090d16;
-    --bg-glass: rgba(17, 24, 39, 0.65);
-    --bg-glass-hover: rgba(31, 41, 55, 0.8);
-    --border-glass: rgba(255, 255, 255, 0.08);
+    --bg-dark: #f3f4f6;
+    --bg-glass: rgba(255, 255, 255, 0.85);
+    --bg-glass-hover: rgba(255, 255, 255, 1);
+    --border-glass: rgba(0, 0, 0, 0.08);
     
-    --color-primary: #a855f7;       /* Neon Purple */
-    --color-primary-glow: rgba(168, 85, 247, 0.3);
-    --color-secondary: #06b6d4;     /* Neon Cyan */
-    --color-success: #10b981;       /* Neon Green */
-    --color-success-glow: rgba(16, 185, 129, 0.2);
-    --color-danger: #f43f5e;        /* Neon Red */
+    --color-primary: #8b5cf6;       /* Neon Purple */
+    --color-primary-glow: rgba(139, 92, 246, 0.3);
+    --color-secondary: #0284c7;     /* Neon Cyan */
+    --color-success: #059669;       /* Neon Green */
+    --color-success-glow: rgba(5, 150, 105, 0.2);
+    --color-danger: #e11d48;        /* Neon Red */
     
-    --text-primary: #f3f4f6;
-    --text-secondary: #9ca3af;
-    --text-muted: #6b7280;
+    --text-primary: #111827;
+    --text-secondary: #4b5563;
+    --text-muted: #9ca3af;
     
-    --font-heading: 'Space Grotesk', sans-serif;
-    --font-body: 'Outfit', sans-serif;
+    --font-heading: 'Times New Roman', Times, serif;
+    --font-body: 'Times New Roman', Times, serif;
 }
 
 /* Reset and base styles */
@@ -54,9 +54,9 @@ body {
 
 /* Application Layout Container */
 .app-container {
-    width: 95vw;
-    max-width: 1600px;
-    height: 90vh;
+    width: 98vw;
+    max-width: none;
+    height: 96vh;
     min-height: 650px;
     background: var(--bg-glass);
     backdrop-filter: blur(20px);
@@ -84,7 +84,7 @@ body {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 700;
     letter-spacing: 2px;
     color: var(--color-primary);
@@ -100,7 +100,7 @@ body {
 }
 
 .logo-icon {
-    font-size: 24px;
+    font-size: 31px;
     background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -108,10 +108,10 @@ body {
 
 .header-logo h1 {
     font-family: var(--font-heading);
-    font-size: 20px;
+    font-size: 26px;
     font-weight: 700;
     letter-spacing: -0.5px;
-    background: linear-gradient(to right, #ffffff, #d1d5db);
+    background: linear-gradient(to right, var(--text-primary), var(--text-secondary));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -122,7 +122,7 @@ body {
     color: var(--text-secondary);
     padding: 6px 14px;
     border-radius: 20px;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 600;
 }
 
@@ -134,6 +134,7 @@ body {
     gap: 24px;
     padding: 24px;
     overflow-y: auto;
+    min-height: 0;
 }
 
 /* Statistics Grid Section */
@@ -194,19 +195,19 @@ body {
 }
 
 .stat-label {
-    font-size: 13px;
+    font-size: 17px;
     color: var(--text-secondary);
     font-weight: 500;
 }
 
 .stat-value {
     font-family: var(--font-heading);
-    font-size: 22px;
+    font-size: 29px;
     font-weight: 700;
 }
 
 .stat-total {
-    font-size: 13px;
+    font-size: 17px;
     color: var(--text-muted);
 }
 
@@ -226,7 +227,7 @@ body {
 }
 
 .stat-desc {
-    font-size: 12px;
+    font-size: 16px;
     color: var(--text-muted);
 }
 
@@ -252,7 +253,7 @@ body {
 
 .section-header h3 {
     font-family: var(--font-heading);
-    font-size: 18px;
+    font-size: 23px;
     font-weight: 700;
     color: var(--text-primary);
 }
@@ -270,7 +271,7 @@ body {
     border: none;
     cursor: pointer;
     font-family: var(--font-body);
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 600;
     color: var(--text-secondary);
     padding: 6px 14px;
@@ -280,9 +281,9 @@ body {
 }
 
 .tab-btn.active {
-    background: rgba(255, 255, 255, 0.08);
-    color: #ffffff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.08);
+    color: var(--text-primary);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .tab-btn.disabled {
@@ -326,7 +327,7 @@ body {
     align-items: center;
     justify-content: center;
     font-family: var(--font-heading);
-    font-size: 16px;
+    font-size: 21px;
     font-weight: 700;
     color: var(--text-secondary);
     transition: all 0.3s ease;
@@ -352,7 +353,7 @@ body {
 }
 
 .lesson-type-tag {
-    font-size: 11px;
+    font-size: 14px;
     font-weight: 600;
     color: var(--text-secondary);
     text-transform: uppercase;
@@ -360,7 +361,7 @@ body {
 }
 
 .status-badge {
-    font-size: 11px;
+    font-size: 14px;
     font-weight: 600;
     padding: 2px 8px;
     border-radius: 6px;
@@ -379,7 +380,7 @@ body {
 }
 
 .lesson-question-preview {
-    font-size: 14px;
+    font-size: 18px;
     color: var(--text-secondary);
     font-weight: 400;
     line-height: 1.4;
@@ -398,7 +399,7 @@ body {
     background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
     color: #ffffff;
     font-family: var(--font-body);
-    font-size: 13px;
+    font-size: 17px;
     font-weight: 600;
     padding: 8px 16px;
     border-radius: 10px;
@@ -468,11 +469,11 @@ body {
 }
 
 .sparkle-icon {
-    font-size: 18px;
+    font-size: 23px;
 }
 
 .card-header-sparkle h3 {
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.5px;
@@ -481,7 +482,7 @@ body {
 }
 
 .notebook-desc {
-    font-size: 13px;
+    font-size: 17px;
     color: var(--text-secondary);
     line-height: 1.4;
 }
@@ -505,14 +506,14 @@ body {
 }
 
 .root-word {
-    font-size: 18px;
+    font-size: 23px;
     font-weight: 700;
-    color: #fff;
+    color: var(--text-primary);
     font-family: var(--font-heading);
 }
 
 .root-desc {
-    font-size: 12px;
+    font-size: 16px;
     color: var(--text-muted);
 }
 
@@ -547,8 +548,8 @@ body {
 
 .deriv-text {
     font-weight: 600;
-    font-size: 14px;
-    color: #fff;
+    font-size: 18px;
+    color: var(--text-primary);
 }
 
 .derivation-item.highlighted .deriv-text {
@@ -556,7 +557,7 @@ body {
 }
 
 .deriv-badge {
-    font-size: 10px;
+    font-size: 13px;
     font-weight: 700;
     background: rgba(255, 255, 255, 0.05);
     padding: 2px 6px;
@@ -570,12 +571,12 @@ body {
 }
 
 .deriv-meaning {
-    font-size: 12px;
+    font-size: 16px;
     color: var(--text-secondary);
 }
 
 .deriv-source {
-    font-size: 10px;
+    font-size: 13px;
     color: var(--text-muted);
     align-self: flex-end;
     margin-top: 2px;
@@ -583,8 +584,8 @@ body {
 
 /* ===== RESPONSIVENESS ===== */
 
-/* Tablet */
-@media (max-width: 900px) {
+/* Tablet / iPad */
+@media (max-width: 1024px) {
     .dashboard-content {
         grid-template-columns: 1fr;
     }
@@ -644,16 +645,16 @@ body {
     }
 
     .header-logo h1 {
-        font-size: 17px;
+        font-size: 22px;
     }
 
     .logo-icon {
-        font-size: 20px;
+        font-size: 26px;
     }
 
     .user-badge {
         padding: 4px 10px;
-        font-size: 11px;
+        font-size: 14px;
     }
 
     /* Main workspace */
@@ -698,19 +699,19 @@ body {
     }
 
     .stat-label {
-        font-size: 11px;
+        font-size: 14px;
     }
 
     .stat-value {
-        font-size: 18px;
+        font-size: 23px;
     }
 
     .stat-total {
-        font-size: 11px;
+        font-size: 14px;
     }
 
     .stat-desc {
-        font-size: 11px;
+        font-size: 14px;
     }
 
     /* Dashboard content */
@@ -727,11 +728,11 @@ body {
     }
 
     .section-header h3 {
-        font-size: 16px;
+        font-size: 21px;
     }
 
     .tab-btn {
-        font-size: 11px;
+        font-size: 14px;
         padding: 5px 10px;
     }
 
@@ -751,7 +752,7 @@ body {
         width: 38px;
         height: 38px;
         border-radius: 10px;
-        font-size: 14px;
+        font-size: 18px;
     }
 
     .lesson-details {
@@ -765,16 +766,16 @@ body {
     }
 
     .lesson-type-tag {
-        font-size: 10px;
+        font-size: 13px;
     }
 
     .status-badge {
-        font-size: 10px;
+        font-size: 13px;
         padding: 2px 6px;
     }
 
     .lesson-question-preview {
-        font-size: 13px;
+        font-size: 17px;
         max-width: 100%;
         white-space: normal;
         display: -webkit-box;
@@ -789,7 +790,7 @@ body {
         width: 100%;
         justify-content: center;
         padding: 10px 16px;
-        font-size: 13px;
+        font-size: 17px;
         border-radius: 10px;
     }
 
@@ -809,11 +810,11 @@ body {
     }
 
     .card-header-sparkle h3 {
-        font-size: 13px;
+        font-size: 17px;
     }
 
     .notebook-desc {
-        font-size: 12px;
+        font-size: 16px;
     }
 
     .word-group {
@@ -821,7 +822,7 @@ body {
     }
 
     .root-word {
-        font-size: 16px;
+        font-size: 21px;
     }
 
     .derivation-item {
@@ -829,14 +830,14 @@ body {
     }
 
     .deriv-text {
-        font-size: 13px;
+        font-size: 17px;
     }
 
     .deriv-meaning {
-        font-size: 11px;
+        font-size: 14px;
     }
 
     .deriv-badge {
-        font-size: 9px;
+        font-size: 12px;
     }
 }
