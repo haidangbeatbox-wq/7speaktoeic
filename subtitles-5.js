@@ -1,0 +1,43 @@
+window.subtitlesText = `1
+00:00:00,000 --> 00:00:07,440
+chào mọi người, tui là bảy speak đây, lại tiếp tục với một phút diệt gọn ngữ pháp nhé, các bạn chuẩn bị bấm giờ, bắt đầu.
+
+2
+00:00:07,640 --> 00:00:16,158
+câu số năm hôm nay có nội dung, the seminar will focus on effective leadership skills khoảng trống with time management techniques.
+
+3
+00:00:16,358 --> 00:00:23,288
+nhìn lướt qua các đáp án, chúng ta có thể nhận ra ngay đây là một câu kiểm tra về cụm từ cố định, hay còn gọi là collocation.
+
+4
+00:00:23,488 --> 00:00:31,250
+với dạng bài này, mẹo giải cực nhanh là các bạn không cần phân tích sâu xa, mà hãy để ý ngay đến từ đứng liền sau khoảng trống.
+
+5
+00:00:31,450 --> 00:00:33,460
+ở đây chúng ta có giới từ with.
+
+6
+00:00:33,660 --> 00:00:45,503
+nhiệm vụ của chúng ta là tìm một từ có thể ghép chung với with để tạo thành một cụm từ mang ý nghĩa bổ sung, nối liền hai cụm danh từ ở hai vế là kỹ năng lãnh đạo và kỹ thuật quản lý thời gian.
+
+7
+00:00:45,703 --> 00:00:52,114
+trong tiếng anh, chúng ta có một cụm cố định rất hay xuất hiện trong các bài thi là along with, mang ý nghĩa là cùng với.
+
+8
+00:00:52,314 --> 00:01:02,472
+nhiều bạn ở câu này có thể sẽ phân vân với cụm as well, nhưng các bạn lưu ý nhé, as well phải đi kẹp với một chữ as nữa tạo thành as well as thì mới dùng để nối hai danh từ như thế này được.
+
+9
+00:01:02,672 --> 00:01:14,374
+vì vậy, ốp đúng cụm cố định vào, chúng ta chốt ngay đáp án a là along, câu hoàn chỉnh dịch ra là, hội thảo sẽ tập trung vào các kỹ năng lãnh đạo hiệu quả cùng với các kỹ thuật quản lý thời gian.
+
+10
+00:01:14,574 --> 00:01:25,534
+trước khi hết giờ, cùng điểm nhanh qua ba từ vựng quan trọng trong câu này nhé, một, seminar là hội thảo, hai, focus on là tập trung vào, ba, time management là quản lý thời gian.
+
+11
+00:01:25,734 --> 00:01:32,919
+đúng một phút xong ngay một câu, tui là bảy speak, các bạn nhớ ghi chép lại cụm along with này nhé, hẹn gặp lại mọi người ở video tiếp theo.`;

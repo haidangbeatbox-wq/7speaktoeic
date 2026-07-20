@@ -1,0 +1,43 @@
+window.subtitlesText = `1
+00:00:00,000 --> 00:00:07,153
+chào mọi người, tui là bảy speak đây, chúng ta lại tiếp tục series một phút diệt gọn đề thi nhé, các bạn chuẩn bị bấm giờ, bắt đầu.
+
+2
+00:00:07,353 --> 00:00:14,491
+câu số sáu hôm nay có nội dung, abc corporation plans to khoảng trống its operations into the european market next year.
+
+3
+00:00:14,691 --> 00:00:24,558
+nhìn lướt qua bốn đáp án đều là các động từ bắt đầu bằng tiền tố ex, chúng ta nhận ra ngay đây không phải là câu hỏi ngữ pháp mà là một câu kiểm tra về từ vựng.
+
+4
+00:00:24,758 --> 00:00:28,236
+đòi hỏi chúng ta phải ghép đúng từ vào ngữ cảnh của câu.
+
+5
+00:00:28,436 --> 00:00:37,171
+các bạn để ý ngay đến cụm từ đứng sau chỗ trống là its operations nghĩa là hoạt động kinh doanh, và cụm into the european market nghĩa là vào thị trường châu âu.
+
+6
+00:00:37,371 --> 00:00:47,483
+khi nói về việc một công ty muốn đưa hoạt động kinh doanh của mình sang một thị trường mới, tiếng anh thường sử dụng cụm từ cố định là expand operations hoặc expand business.
+
+7
+00:00:47,683 --> 00:00:56,487
+rất nhiều bạn ở câu này hay bị nhầm với đáp án b là extend, nhưng các bạn nhớ nhé, extend thường dùng để nói về việc kéo dài thời gian hoặc không gian.
+
+8
+00:00:56,687 --> 00:01:03,335
+ví dụ như gia hạn hợp đồng hay kéo dài thời hạn, còn để nói về mở rộng quy mô kinh doanh, chúng ta bắt buộc phải dùng expand.
+
+9
+00:01:03,535 --> 00:01:12,000
+vì vậy, chốt ngay đáp án a, câu hoàn chỉnh dịch ra là, tập đoàn abc dự kiến mở rộng hoạt động của mình sang thị trường châu âu vào năm tới.
+
+10
+00:01:12,200 --> 00:01:23,436
+trước khi hết giờ, cùng điểm lại ba từ vựng cốt lõi trong câu này nhé, một, operation là hoạt động kinh doanh, hai, expand là mở rộng, ba, market là thị trường.
+
+11
+00:01:23,636 --> 00:01:31,712
+xong rồi đó, cực kỳ nhanh gọn, tui là bảy speak, các bạn nhớ ghi chép lại sự khác biệt giữa expand và extend để không bị mất điểm oan nhé, hẹn gặp lại mọi người ở video tiếp theo.`;

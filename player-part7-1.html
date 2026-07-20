@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOEIC Part 7 - Đoạn 1: Email</title>
+    <meta name="description" content="Bản trình bày tương tác giải chi tiết TOEIC Part 7 đoạn 1.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="style.css?v=2">
+</head>
+<body>
+    <div class="bg-gradient-glow"></div>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="header-logo">
+                <a href="index.html" style="text-decoration: none; display: flex; align-items: center; gap: 10px; color: inherit;">
+                    <span class="logo-icon">⚡</span>
+                    <h1>7SPEAK</h1>
+                </a>
+            </div>
+            <div class="header-center-title">GIẢI TOEIC CÙNG KỸ SƯ CÓ GU</div>
+            <div class="header-actions" style="display: flex; align-items: center; gap: 16px;">
+                <a href="index.html" class="btn-secondary" style="font-size: 13px; font-weight: 600; color: var(--text-secondary); text-decoration: none; background: rgba(255,255,255,0.05); padding: 8px 16px; border-radius: 10px; border: 1px solid rgba(255,255,255,0.06); transition: all 0.2s ease; display: inline-flex; align-items: center; gap: 6px;">
+                    ← Dashboard
+                </a>
+                <div class="header-status">
+                    <span class="status-dot pulsing"></span>
+                    <span class="status-text">Audio Sync Active</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Workspace -->
+        <main class="main-workspace">
+            <!-- Left Panel: Question Board -->
+            <section class="question-panel" aria-labelledby="question-title" style="overflow-y: auto;">
+                <div class="panel-header">
+                    <span class="badge">Part 7 - Đoạn 1</span>
+                    <h2 id="question-title" class="sr-only">TOEIC Part 7 Passage</h2>
+                </div>
+                
+                <div class="question-card passage-card" style="font-size: 16px; line-height: 1.6; text-align: left; flex-shrink: 0;">
+                    <p><strong>ĐOẠN 1</strong></p>
+                    <p><em>Questions 1-5 refer to the following email.</em></p>
+                    <p><strong>To:</strong> All Staff<br>
+                    <strong>From:</strong> Human Resources<br>
+                    <strong>Date:</strong> October 12<br>
+                    <strong>Subject:</strong> Annual Company Retreat</p>
+                    <p>We are excited to announce that <span id="proof-q1" class="word-highlight" data-tooltip="Thông tin Câu 1">our annual company retreat will take place next weekend, October 20-21, at the Pine Mountain Lodge</span>. The goal of this retreat is team building and relaxation after a highly productive year. <span id="proof-q2" class="word-highlight" data-tooltip="Thông tin Câu 2">A bus will depart from the main office at 8:00 AM on Saturday</span>. <span id="proof-q3" class="word-highlight" data-tooltip="Thông tin Câu 3">Please ensure you bring warm clothes</span>, as the mountain weather can be quite cold in the evening. All meals will be provided. If you plan to attend, <span id="proof-q4-5" class="word-highlight" data-tooltip="Thông tin Câu 4 & 5">please RSVP to Jane in HR no later than this Wednesday so we can finalize the headcount</span> for the hotel.</p>
+                </div>
+
+                <div class="questions-list" style="margin-top: 20px; display: flex; flex-direction: column; gap: 20px; flex-shrink: 0;">
+                    <!-- Q1 -->
+                    <div class="question-block" id="q1">
+                        <p><strong>1. <span id="kw-q1-1" class="word-highlight">Where</span> will the <span id="kw-q1-2" class="word-highlight">retreat</span> be held?</strong></p>
+                        <div class="options" style="display: flex; flex-direction: column; gap: 8px; margin-top: 10px;">
+                            <div class="opt" id="opt-q1-a">A) At the main office</div>
+                            <div class="opt correct" id="opt-q1-b" style="font-weight:bold; color:var(--emerald-400);">B) At Pine Mountain Lodge</div>
+                            <div class="opt" id="opt-q1-c">C) At a beach resort</div>
+                            <div class="opt" id="opt-q1-d">D) In a local park</div>
+                        </div>
+                    </div>
+                    <!-- Q2 -->
+                    <div class="question-block" id="q2">
+                        <p><strong>2. <span id="kw-q2-1" class="word-highlight">When</span> will the <span id="kw-q2-2" class="word-highlight">bus depart</span>?</strong></p>
+                        <div class="options" style="display: flex; flex-direction: column; gap: 8px; margin-top: 10px;">
+                            <div class="opt" id="opt-q2-a">A) October 12</div>
+                            <div class="opt" id="opt-q2-b">B) Wednesday</div>
+                            <div class="opt correct" id="opt-q2-c" style="font-weight:bold; color:var(--emerald-400);">C) 8:00 AM on Saturday</div>
+                            <div class="opt" id="opt-q2-d">D) 9:00 AM on Sunday</div>
+                        </div>
+                    </div>
+                    <!-- Q3 -->
+                    <div class="question-block" id="q3">
+                        <p><strong>3. What are employees <span id="kw-q3-1" class="word-highlight">advised to bring</span>?</strong></p>
+                        <div class="options" style="display: flex; flex-direction: column; gap: 8px; margin-top: 10px;">
+                            <div class="opt" id="opt-q3-a">A) Food and drinks</div>
+                            <div class="opt" id="opt-q3-b">B) Office documents</div>
+                            <div class="opt correct" id="opt-q3-c" style="font-weight:bold; color:var(--emerald-400);">C) Warm clothes</div>
+                            <div class="opt" id="opt-q3-d">D) Sports equipment</div>
+                        </div>
+                    </div>
+                    <!-- Q4 -->
+                    <div class="question-block" id="q4">
+                        <p><strong>4. <span id="kw-q4-1" class="word-highlight">Who</span> is organizing the <span id="kw-q4-2" class="word-highlight">headcount</span>?</strong></p>
+                        <div class="options" style="display: flex; flex-direction: column; gap: 8px; margin-top: 10px;">
+                            <div class="opt" id="opt-q4-a">A) The lodge manager</div>
+                            <div class="opt correct" id="opt-q4-b" style="font-weight:bold; color:var(--emerald-400);">B) Jane from HR</div>
+                            <div class="opt" id="opt-q4-c">C) The CEO</div>
+                            <div class="opt" id="opt-q4-d">D) The transportation department</div>
+                        </div>
+                    </div>
+                    <!-- Q5 -->
+                    <div class="question-block" id="q5">
+                        <p><strong>5. What is the <span id="kw-q5-1" class="word-highlight">deadline</span> to <span id="kw-q5-2" class="word-highlight">respond</span>?</strong></p>
+                        <div class="options" style="display: flex; flex-direction: column; gap: 8px; margin-top: 10px;">
+                            <div class="opt" id="opt-q5-a">A) October 12</div>
+                            <div class="opt" id="opt-q5-b">B) October 20</div>
+                            <div class="opt" id="opt-q5-c">C) Friday</div>
+                            <div class="opt correct" id="opt-q5-d" style="font-weight:bold; color:var(--emerald-400);">D) Wednesday</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Right Panel: Explanation & Subtitles -->
+            <section class="explanation-panel" aria-labelledby="explanation-title">
+                <h2 id="explanation-title" class="sr-only">Phần phụ đề</h2>
+
+                <!-- Subtitles Glass Panel -->
+                <div class="subtitles-container">
+                    <div class="panel-header">
+                        <span>Lời giảng của giáo viên</span>
+                    </div>
+                    <div class="subtitles-wrapper" id="subtitles-wrapper">
+                        <div class="subtitle-line previous" id="sub-prev">...</div>
+                        <div class="subtitle-line active" id="sub-active">Bấm nút Play để bắt đầu nghe giảng giải chi tiết</div>
+                        <div class="subtitle-line next" id="sub-next">...</div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Timeline / Audio Navigator -->
+        <section class="timeline-nav" aria-label="Mốc thời gian bài giảng">
+            <button class="nav-marker" data-timestamp="0">
+                <span class="marker-dot"></span>
+                <span class="marker-label">Bắt đầu</span>
+            </button>
+            <button class="nav-marker" data-timestamp="17">
+                <span class="marker-dot"></span>
+                <span class="marker-label">Câu 1</span>
+            </button>
+            <button class="nav-marker" data-timestamp="43">
+                <span class="marker-dot"></span>
+                <span class="marker-label">Câu 2</span>
+            </button>
+            <button class="nav-marker" data-timestamp="68">
+                <span class="marker-dot"></span>
+                <span class="marker-label">Câu 3</span>
+            </button>
+            <button class="nav-marker" data-timestamp="100">
+                <span class="marker-dot"></span>
+                <span class="marker-label">Câu 4</span>
+            </button>
+            <button class="nav-marker" data-timestamp="128">
+                <span class="marker-dot"></span>
+                <span class="marker-label">Câu 5</span>
+            </button>
+        </section>
+
+        <!-- Footer Player Controls -->
+        <footer class="player-controls">
+            <audio id="lecture-audio" src="audio-part7-1.wav" preload="auto"></audio>
+            <div class="controls-left">
+                <button class="control-btn play-btn" id="play-btn" aria-label="Chạy âm thanh">
+                    <svg id="play-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icon-control"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                    <svg id="pause-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icon-control hidden"><rect x="6" y="4" width="4" height="16"></rect><rect x="14" y="4" width="4" height="16"></rect></svg>
+                </button>
+                <div class="time-display">
+                    <span id="current-time">00:00</span>
+                    <span class="time-divider">/</span>
+                    <span id="total-time">00:00</span>
+                </div>
+            </div>
+            <div class="controls-center">
+                <canvas id="visualizer-canvas" class="visualizer-canvas"></canvas>
+                <div class="scrubber-container">
+                    <input type="range" id="progress-bar" class="progress-bar" min="0" max="100" value="0" step="0.1" aria-label="Tiến trình âm thanh">
+                    <div class="progress-filled" id="progress-filled"></div>
+                </div>
+            </div>
+            <div class="controls-right">
+                <div class="speed-selector">
+                    <button class="speed-btn active" data-speed="1">1.0x</button>
+                    <button class="speed-btn" data-speed="1.25">1.25x</button>
+                    <button class="speed-btn" data-speed="1.5">1.5x</button>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="subtitles-part7-1.js"></script>
+    <script src="app-part7-1.js"></script>
+</body>
+</html>

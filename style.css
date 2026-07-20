@@ -214,7 +214,7 @@ body {
 }
 
 .question-text {
-    font-size: 31px;
+    font-size: 36px;
     line-height: 1.7;
     font-weight: 400;
     color: var(--text-primary);
@@ -551,7 +551,7 @@ body {
     border-radius: 12px;
     border: 1px solid rgba(0, 0, 0, 0.05);
     font-family: var(--font-heading);
-    font-size: 32px;
+    font-size: 42px;
     font-weight: 700;
     justify-content: center;
 }
@@ -566,7 +566,7 @@ body {
 }
 
 .grammar-explanation {
-    font-size: 26px;
+    font-size: 32px;
     color: var(--text-secondary);
     line-height: 1.5;
 }
@@ -584,7 +584,7 @@ body {
     grid-template-columns: 0.9fr 1.1fr 1fr;
     padding: 8px 12px;
     border-radius: 8px;
-    font-size: 21px;
+    font-size: 26px;
     background: rgba(0, 0, 0, 0.01);
     border: 1px solid transparent;
 }
@@ -645,7 +645,7 @@ body {
 }
 
 .subtitle-line.active {
-    font-size: 36px;
+    font-size: 32px;
     font-weight: 500;
     color: var(--text-primary);
     line-height: 1.5;
@@ -655,7 +655,7 @@ body {
 
 .subtitle-line.previous,
 .subtitle-line.next {
-    font-size: 24px;
+    font-size: 22px;
     color: var(--text-muted);
     opacity: 0.4;
     max-width: 80%;
@@ -1116,13 +1116,13 @@ body {
     }
 
     .subtitle-line.active {
-        font-size: 18px;
+        font-size: 22px;
         max-width: 100%;
     }
 
     .subtitle-line.previous,
     .subtitle-line.next {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .subtitles-wrapper {

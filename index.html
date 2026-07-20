@@ -77,13 +77,13 @@
                     <div class="section-header">
                         <h3 id="lesson-title">Lộ trình Luyện đề TOEIC</h3>
                         <div class="tab-selectors">
-                            <button class="tab-btn active">Part 5</button>
+                            <button class="tab-btn active" id="tab-part5" onclick="switchTab('part5')">Part 5</button>
                             <button class="tab-btn disabled" disabled>Part 6 🔒</button>
-                            <button class="tab-btn disabled" disabled>Part 7 🔒</button>
+                            <button class="tab-btn" id="tab-part7" onclick="switchTab('part7')">Part 7</button>
                         </div>
                     </div>
 
-                    <div class="lesson-list">
+                    <div class="lesson-list" id="list-part5">
                         <!-- Completed Lesson (Câu 1) -->
                         <div class="lesson-item completed">
                             <div class="lesson-index-badge completed">1</div>
@@ -151,6 +151,42 @@
                                 </h4>
                             </div>
                             <a href="player-4.html" class="play-lesson-btn" title="Nghe giảng câu này">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon-play"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                                <span>Nghe giảng</span>
+                            </a>
+                        </div>
+
+                        <!-- Completed Lesson (Câu 5) -->
+                        <div class="lesson-item completed">
+                            <div class="lesson-index-badge completed">5</div>
+                            <div class="lesson-details">
+                                <div class="lesson-meta">
+                                    <span class="lesson-type-tag">Cụm từ cố định (Collocation)</span>
+                                    <span class="status-badge success">Hoàn thành</span>
+                                </div>
+                                <h4 class="lesson-question-preview">
+                                    The seminar will focus on effective leadership skills _______ with time management techniques.
+                                </h4>
+                            </div>
+                            <a href="player-5.html" class="play-lesson-btn" title="Nghe giảng câu này">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon-play"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                                <span>Nghe giảng</span>
+                            </a>
+                        </div>
+
+                        <!-- Active Lesson (Câu 6) -->
+                        <div class="lesson-item completed">
+                            <div class="lesson-index-badge completed">6</div>
+                            <div class="lesson-details">
+                                <div class="lesson-meta">
+                                    <span class="lesson-type-tag">Từ vựng (Vocabulary)</span>
+                                    <span class="status-badge success">Hoàn thành</span>
+                                </div>
+                                <h4 class="lesson-question-preview">
+                                    ABC Corporation plans to _______ its operations into the European market next year.
+                                </h4>
+                            </div>
+                            <a href="player-6.html" class="play-lesson-btn" title="Nghe giảng câu này">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon-play"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
                                 <span>Nghe giảng</span>
                             </a>
@@ -244,6 +280,26 @@
                             </button>
                         </div>
                     </div>
+
+                    <div class="lesson-list" id="list-part7" style="display: none;">
+                        <!-- Active Lesson (Part 7 - Đoạn 1) -->
+                        <div class="lesson-item completed">
+                            <div class="lesson-index-badge completed">Đ1</div>
+                            <div class="lesson-details">
+                                <div class="lesson-meta">
+                                    <span class="lesson-type-tag">Đoạn đơn (Email)</span>
+                                    <span class="status-badge success">Hoàn thành</span>
+                                </div>
+                                <h4 class="lesson-question-preview">
+                                    Questions 1-5 refer to the following email: "We are excited to announce..."
+                                </h4>
+                            </div>
+                            <a href="player-part7-1.html" class="play-lesson-btn" title="Nghe giảng đoạn này">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon-play"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                                <span>Nghe giảng</span>
+                            </a>
+                        </div>
+                    </div>
                 </section>
 
                 <!-- Right Panel: Vocabulary Notebook Card -->
@@ -305,5 +361,22 @@
             </div>
         </main>
     </div>
+
+    <script>
+        function switchTab(tabId) {
+            // Reset active states for tabs
+            document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+            document.getElementById('tab-' + tabId).classList.add('active');
+
+            // Hide all lists, show target
+            document.querySelectorAll('.lesson-list').forEach(list => list.style.display = 'none');
+            document.getElementById('list-' + tabId).style.display = 'flex'; // Use flex as it aligns with `.lesson-list` default
+            // Re-apply flex-direction column if needed, but display:flex is likely what .lesson-list uses
+            if(window.getComputedStyle(document.getElementById('list-' + tabId)).flexDirection === "row") {
+               document.getElementById('list-' + tabId).style.flexDirection = 'column';
+               document.getElementById('list-' + tabId).style.gap = '16px';
+            }
+        }
+    </script>
 </body>
 </html>
