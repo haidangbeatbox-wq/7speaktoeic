@@ -110,7 +110,7 @@ body {
 
 .header-logo h1 {
     font-family: var(--font-heading);
-    font-size: 26px;
+    font-size: 32px;
     font-weight: 700;
     letter-spacing: -0.5px;
     background: linear-gradient(to right, var(--text-primary), var(--text-secondary));
@@ -346,6 +346,7 @@ body {
 }
 
 .option-type {
+    font-weight: bold;
     font-size: 20px;
     color: var(--text-secondary);
     background: rgba(255, 255, 255, 0.04);
@@ -585,7 +586,8 @@ body {
     grid-template-columns: 0.9fr 1.1fr 1fr;
     padding: 8px 12px;
     border-radius: 8px;
-    font-size: 26px;
+    font-size: 28px;
+    font-weight: bold;
     background: rgba(0, 0, 0, 0.01);
     border: 1px solid transparent;
 }
@@ -604,7 +606,7 @@ body {
 }
 
 .table-row span:first-child {
-    font-weight: 500;
+    /* Removed font-weight: 500 to inherit bold from .table-row */
 }
 
 /* Subtitle Glass Container */
@@ -1225,3 +1227,77 @@ body {
     }
 }
 
+/* Layout specifically for Part 7 to give more space to the reading passage */
+body.part7-layout .main-workspace {
+    flex-direction: row;
+}
+
+body.part7-layout .question-panel {
+    flex: 2.2 1 0%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr auto;
+    gap: 20px;
+}
+
+body.part7-layout .question-panel .panel-header {
+    grid-column: 1 / -1;
+    grid-row: 1;
+}
+
+body.part7-layout .passage-card {
+    grid-column: 1 / 2;
+    grid-row: 2;
+    margin: 0;
+}
+
+body.part7-layout .questions-list {
+    grid-column: 2 / 3;
+    grid-row: 2;
+    margin-top: 0 !important;
+}
+
+body.part7-layout #vocab-section {
+    grid-column: 1 / -1;
+    grid-row: 3;
+    margin-top: 0 !important;
+}
+
+body.part7-layout .explanation-panel {
+    flex: 0.8 1 0%;
+}
+
+@media (max-width: 1200px) {
+    body.part7-layout .question-panel {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto;
+    }
+    body.part7-layout .passage-card {
+        grid-column: 1 / -1;
+        grid-row: 2;
+    }
+    body.part7-layout .questions-list {
+        grid-column: 1 / -1;
+        grid-row: 3;
+    }
+    body.part7-layout #vocab-section {
+        grid-column: 1 / -1;
+        grid-row: 4;
+    }
+}
+
+body.part7-layout .passage-card {
+    font-size: 21px !important;
+    line-height: 1.7;
+}
+
+body.part7-layout .question-block p {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 14px;
+}
+
+body.part7-layout .opt {
+    font-size: 19px;
+    padding: 6px 0;
+}

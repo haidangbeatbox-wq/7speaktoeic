@@ -1,0 +1,64 @@
+window.subtitlesText = `1
+00:00:00,000 --> 00:00:05,389
+chào mọi người, bảy speak đây, chúng ta tiếp tục series một phút diệt gọn đề thi toeic nhé, bấm giờ.
+
+2
+00:00:05,589 --> 00:00:12,528
+câu hai mươi hai hôm nay có nội dung, mr, cline requested his boss to authorize khoảng trống to organize the event.
+
+3
+00:00:12,728 --> 00:00:24,125
+nhìn vào khoảng trống, chúng ta thấy nó đứng ngay sau động từ authorize ủy quyền, cấu trúc kinh điển cần nhớ ở đây là authorize someone to do something ủy quyền cho ai đó làm việc gì.
+
+4
+00:00:24,325 --> 00:00:29,194
+do đó, vị trí này chắc chắn cần một đại từ đóng vai trò làm tân ngữ.
+
+5
+00:00:29,394 --> 00:00:31,154
+chúng ta cùng loại trừ các đáp án.
+
+6
+00:00:31,354 --> 00:00:35,299
+d he là đại từ nhân xưng chủ ngữ, loại ngay lập tức.
+
+7
+00:00:35,499 --> 00:00:42,084
+b his là tính từ sở hữu cần danh từ theo sau hoặc đại từ sở hữu, không đúng cấu trúc ở đây.
+
+8
+00:00:42,284 --> 00:00:53,709
+a himself là đại từ phản thân, thường dùng khi chủ ngữ và tân ngữ là cùng một người, trong câu này, người ủy quyền là his boss sếp của ông ấy, còn người được nhận ủy quyền là ông cline.
+
+9
+00:00:53,909 --> 00:00:57,822
+hai đối tượng khác nhau nên không thể dùng đại từ phản thân.
+
+10
+00:00:58,022 --> 00:01:01,515
+chỉ còn c him đóng vai trò tân ngữ là chính xác nhất.
+
+11
+00:01:01,715 --> 00:01:09,571
+chốt đơn c, trọn vẹn câu này dịch ra là, ông cline đã yêu cầu sếp ủy quyền cho ông ấy tổ chức sự kiện.
+
+12
+00:01:09,771 --> 00:01:12,798
+trước khi hết giờ, nạp ngay ba từ vựng bỏ túi nhé.
+
+13
+00:01:12,998 --> 00:01:14,337
+request, yêu cầu.
+
+14
+00:01:14,537 --> 00:01:16,321
+authorize, ủy quyền.
+
+15
+00:01:16,521 --> 00:01:18,375
+organize, tổ chức.
+
+16
+00:01:18,575 --> 00:01:27,357
+hết đúng một phút, bảy speak chào các bạn, khi gặp các động từ tác động lên người khác thì nhớ ngay đến việc điền tân ngữ nhé, hẹn gặp lại ở video tiếp theo.
+`;

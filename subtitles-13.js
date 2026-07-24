@@ -1,0 +1,44 @@
+window.subtitlesText = `1
+00:00:00,000 --> 00:00:06,531
+chào mọi người, bảy speak đây, vào việc luôn với một phút diệt gọn đề thi nhé, bấm giờ.
+
+2
+00:00:06,731 --> 00:00:13,455
+câu mười ba hôm nay có nội dung, prior to khoảng trống the facility, visitors must sign in at the front desk.
+
+3
+00:00:13,655 --> 00:00:23,399
+nhìn bốn đáp án, chúng ta thấy ngay đây là các dạng khác nhau của động từ enter, bí kíp để giải quyết nhanh gọn câu này nằm ngay phía trước chỗ trống, cụm từ prior to.
+
+4
+00:00:23,599 --> 00:00:31,653
+các bạn cứ nhớ quy tắc vàng này, prior to đóng vai trò như một giới từ, mang nghĩa là trước khi, y hệt như chữ before.
+
+5
+00:00:31,853 --> 00:00:37,376
+mà theo sau giới từ thì động từ luôn luôn phải ở dạng v ing hoặc là một danh từ.
+
+6
+00:00:37,576 --> 00:00:49,399
+áp dụng đúng quy tắc vàng đó, không cần suy nghĩ nhiều, chốt ngay đáp án c, entering, dịch trọn vẹn cả câu là, trước khi đi vào cơ sở, khách tham quan phải đăng ký tại quầy lễ tân.
+
+7
+00:00:49,599 --> 00:00:51,491
+nạp lẹ ba từ vựng ăn điểm nhé.
+
+8
+00:00:51,691 --> 00:00:53,995
+prior to prep, trước khi.
+
+9
+00:00:54,195 --> 00:00:56,715
+facility n, cơ sở, tiện ích.
+
+10
+00:00:56,915 --> 00:01:01,077
+sign in v, đăng ký vào, ghi danh.
+
+11
+00:01:01,277 --> 00:01:09,139
+một câu quá dễ để lấy điểm phải không nào, bảy speak chào các bạn, nhớ note lại quy tắc giới từ cộng v ing này và hẹn gặp lại ở video tiếp theo nhé.
+`;

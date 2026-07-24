@@ -1,0 +1,56 @@
+window.subtitlesText = `1
+00:00:00,000 --> 00:00:05,242
+chào mọi người, bảy speak đây, chúng ta tiếp tục series một phút diệt gọn đề thi nhé, bấm giờ.
+
+2
+00:00:05,442 --> 00:00:14,263
+câu mười bốn hôm nay có nội dung, by the time the foreign investors visit the site next week, the foundation khoảng trống completely.
+
+3
+00:00:14,463 --> 00:00:26,757
+nhìn lướt qua các đáp án, chúng ta dễ dàng nhận ra đây là một câu kiểm tra tổng hợp về thì và thể của động từ, bí kíp để xử lý nhanh câu này nằm ở ngay cụm từ chỉ thời gian đầu câu, by the time.
+
+4
+00:00:26,957 --> 00:00:38,967
+trong tiếng anh, khi by the time đi kèm với một mệnh đề ở thì hiện tại đơn ở đây là visit, nó là dấu hiệu kinh điển báo hiệu mệnh đề chính phía sau phải dùng thì tương lai hoàn thành.
+
+5
+00:00:39,167 --> 00:00:44,053
+điều này diễn tả một hành động sẽ hoàn tất trước một thời điểm cụ thể trong tương lai.
+
+6
+00:00:44,253 --> 00:00:50,529
+thêm vào đó, hãy xét đến ngữ nghĩa, chủ ngữ là the foundation phần móng và động từ là pour đổ.
+
+7
+00:00:50,729 --> 00:00:57,720
+rõ ràng móng nhà không thể tự nó hành động, mà phải là được đổ, bắt buộc chúng ta phải dùng thể bị động.
+
+8
+00:00:57,920 --> 00:01:03,846
+kết hợp hai yếu tố, tương lai hoàn thành và thể bị động, chốt ngay đáp án c, will have been poured.
+
+9
+00:01:04,046 --> 00:01:10,808
+cả câu dịch ra là, vào thời điểm các nhà đầu tư nước ngoài đến thăm công trường vào tuần tới, phần móng sẽ được đổ xong hoàn toàn.
+
+10
+00:01:11,008 --> 00:01:14,302
+trước khi hết giờ, nạp nhanh ba từ vựng chuyên ngành nhé.
+
+11
+00:01:14,502 --> 00:01:17,342
+foreign investor n, nhà đầu tư nước ngoài.
+
+12
+00:01:17,542 --> 00:01:19,628
+foundation n, nền móng.
+
+13
+00:01:19,828 --> 00:01:20,987
+pour v, đổ bê tông.
+
+14
+00:01:21,187 --> 00:01:29,569
+hết đúng một phút, bảy speak chào các bạn, nhớ khắc cốt ghi tâm cấu trúc by the time này để lấy điểm trọn vẹn nhé, hẹn gặp lại ở video tiếp theo.
+`;

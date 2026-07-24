@@ -1,0 +1,52 @@
+window.subtitlesText = `1
+00:00:00,000 --> 00:00:05,242
+chào mọi người, bảy speak đây, chúng ta tiếp tục series một phút diệt gọn đề thi nhé, bấm giờ.
+
+2
+00:00:05,442 --> 00:00:16,048
+câu mười bảy hôm nay có nội dung, khoảng trống opening several casual restaurants in the area, antonios fried chicken also operates a home delivery service.
+
+3
+00:00:16,248 --> 00:00:20,418
+nhìn vào khoảng trống, chúng ta bắt được ngay từ opening đang ở dạng v ing.
+
+4
+00:00:20,618 --> 00:00:34,101
+liếc nhanh qua bốn đáp án, hãy dùng phương pháp loại trừ, even though mặc dù và as if cứ như thể luôn phải đi kèm với một mệnh đề hoàn chỉnh chủ ngữ động từ, nên ta gạch ngay a và c.
+
+5
+00:00:34,301 --> 00:00:45,361
+chúng ta còn lại b rather than thay vì và d in addition to bên cạnh,ngoài việc, để phân thắng bại, hãy nhìn vào mệnh đề chính, chữ also cũng xuất hiện chễm chệ ngay đó.
+
+6
+00:00:45,561 --> 00:00:52,323
+chữ này là tín hiệu vũ trụ cho thấy câu đang mang tính chất bổ sung thêm thông tin, chứ không phải mang nghĩa thay thế hay đối lập.
+
+7
+00:00:52,523 --> 00:00:56,779
+cú pháp hợp lý nhất cả về ngữ pháp lẫn ngữ nghĩa chính là đáp án d.
+
+8
+00:00:56,979 --> 00:01:05,397
+trọn vẹn cả câu dịch ra là, bên cạnh việc mở một vài nhà hàng bình dân trong khu vực, gà rán antonio cũng điều hành một dịch vụ giao hàng tận nhà.
+
+9
+00:01:05,597 --> 00:01:10,281
+trước khi hết giờ, nạp nhanh ba từ vựng xịn xò để áp dụng thực chiến nhé.
+
+10
+00:01:10,481 --> 00:01:14,462
+in addition to v ing,n, bên cạnh việc, ngoài việc.
+
+11
+00:01:14,662 --> 00:01:17,359
+casual restaurant n, nhà hàng bình dân.
+
+12
+00:01:17,559 --> 00:01:20,902
+operate v, điều hành, vận hành.
+
+13
+00:01:21,102 --> 00:01:28,985
+hết đúng một phút, bảy speak chào các bạn, nhớ tinh ý bắt ngay keyword như chữ also để không phải dịch dông dài nhé, hẹn gặp lại ở video tiếp theo.
+`;
